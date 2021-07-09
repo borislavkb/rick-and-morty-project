@@ -10,7 +10,7 @@ body {
 header {
   height: 20vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-self: center;
   flex-direction: row;
   background: var(--bg-color);
@@ -28,7 +28,12 @@ footer {
   height: 10vh;
 }
 
+img {
+  width: 200px;
+  height: 150px;
+}
 .form-button {
+  margin: 2em;
   align-self: center;
 }
 
@@ -41,4 +46,11 @@ footer {
 
 .button:hover {
   background-color: var(--hover-color);
+}
+
+.card {
+  border: 3px solid;
+  width: 20em;
+  height: 20em;
+  margin: 5em;
 }
