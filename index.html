@@ -5,23 +5,42 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/index.css" />
-    <title>Vite App</title>
+    <title>Rick and Morty App</title>
   </head>
   <body>
     <header>
       <div class="logo">
         <img src="image/main.png" alt="Rick and Morty logo" />
       </div>
-      <form class="form-button">
+      <form class="form">
+        <select id="status">
+          <optgroup label="Character status">
+            <option>All</option>
+            <option>Alive</option>
+            <option>Dead</option>
+            <option>Unknown</option>
+          </optgroup>
+        </select>
         <button class="button" type="submit">Load data</button>
       </form>
     </header>
     <main class="content">
       <section class="card">
-        <div class="img">
+        <div class="img section">
           <a href="#" alt=""></a>
         </div>
-        <div id="app">Character</div>
+        <div id="card-name section">
+          <h2 class="card-name">Character</h2>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="img section">
+          <a href="#" alt=""></a>
+        </div>
+        <div id="card-name section">
+          <h2 class="card-name">Character</h2>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -29,4 +48,5 @@
     </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
+  <script type="module" src="main.js"></script>
 </html>
