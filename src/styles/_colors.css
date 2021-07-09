@@ -1,3 +1,8 @@
 :root {
   /* Define your variable colors here */
+  --bg-color: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 2%,
+    rgba(148, 187, 233, 1) 91%
+  );
 }
