@@ -7,4 +7,7 @@
   );
   --button-color: lightblue;
   --hover-color: rgb(71, 159, 194);
+  --alive-colour: rgb(25, 163, 25);
+  --deceased-colour: rgb(158, 37, 158);
+  --unknown-color: rgb(172, 172, 37);
 }
