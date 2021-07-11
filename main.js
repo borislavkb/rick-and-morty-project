@@ -4,10 +4,11 @@ import { fetchCharacters } from "./lib/db.js";
 const formButton = document.querySelector(".form");
 export const filter = document.querySelector("select");
 const main = document.querySelector("main");
+const nameSearch = document.querySelector("form-search");
 
 formButton.addEventListener("submit", (event) => {
   const status = filter.value;
-  clearAll();
+  const nameSearch = clearAll();
   fetchCharacters(status).then((data) => {
     data.results.forEach((character) => {
       main.append(renderCard(character));
