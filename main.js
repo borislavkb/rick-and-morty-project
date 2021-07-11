@@ -8,7 +8,7 @@ const nameSearch = document.querySelector("form-search");
 
 formButton.addEventListener("submit", (event) => {
   const status = filter.value;
-  const nameSearch = clearAll();
+  clearAll();
   fetchCharacters(status).then((data) => {
     data.results.forEach((character) => {
       main.append(renderCard(character));
