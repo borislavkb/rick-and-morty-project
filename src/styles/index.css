@@ -22,7 +22,10 @@ header {
 main {
   overflow-y: scroll;
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
   flex-grow: 1;
+  background: var(--bg-main-color);
 }
 
 footer {
@@ -62,7 +65,40 @@ img {
 }
 
 .card {
-  border: 3px solid;
+  border: 3px solid greenyellow;
+  border-radius: 5px;
+  width: 30em;
+  height: 18em;
+  margin: 5em;
+  background: var(--bg-card-color);
+  color: var(--color-text-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-name-div {
+  padding: 1em;
+  margin: 1em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.img section {
+}
+.card:nth-child(2) {
+  border: 3px solid greenyellow;
+  border-radius: 5px;
+  width: 30em;
+  height: 18em;
+  margin: 5em;
+}
+
+.card:nth-child(3) {
+  border: 3px solid red;
+  border-radius: 5px;
   width: 30em;
   height: 18em;
   margin: 5em;

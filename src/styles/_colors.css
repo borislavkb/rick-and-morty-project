@@ -10,4 +10,15 @@
   --alive-colour: rgb(25, 163, 25);
   --deceased-colour: rgb(158, 37, 158);
   --unknown-color: rgb(172, 172, 37);
+  --bg-card-color: radial-gradient(
+    circle,
+    rgb(93, 182, 223) 2%,
+    rgb(174, 117, 221) 91%
+  );
+  --color-text-card: whitesmoke;
+  --bg-main-color: radial-gradient(
+    circle,
+    rgb(235, 243, 130) 2%,
+    rgb(157, 163, 66) 91%
+  );
 }
