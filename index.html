@@ -5,13 +5,38 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/index.css" />
-    <title>Vite App</title>
+    <title>Rick and Morty App</title>
   </head>
   <body>
     <header>
-      <h1>Hello World</h1>
+      <div class="logo">
+        <img src="image/main.png" alt="Rick and Morty logo" />
+      </div>
+      <form class="form">
+        <input type="text" class="form_search" />
+        <select class="form_filter" name="status" id="status">
+          <option value="all" selected>All</option>
+          <option value="Alive">Alive</option>
+          <option value="Dead">Dead</option>
+          <option value="unknown">Unknown</option>
+        </select>
+
+        <button class="button" type="submit">Load data</button>
+      </form>
     </header>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main class="content">
+      <!-- <section class="card">
+        <div class="img section">
+          <img src="#" alt=""></a>
+        </div>
+        <div class="card-name-div">
+          <h2 class="card-name">Character</h2>
+        </div>
+      </section> -->
+    </main>
+    <footer class="footer">
+      <div class="footer_note">Made with love by Boris 🏄‍♂️</div>
+    </footer>
   </body>
+  <script src="main.js" type="module"></script>
 </html>
